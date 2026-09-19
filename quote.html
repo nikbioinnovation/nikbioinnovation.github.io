@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Quote | NIK BIO-INNOVATION</title>
+<meta name="description" content="Request a quote from NIK BIO-INNOVATION for diagnostics products, laboratory consultancy, or technical services.">
+<link rel="icon" type="image/png" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <div class="brand-mark"><img src="assets/logo-icon.png" alt="NIK BIO-INNOVATION logo"></div>
+      <div class="brand-name">NIK BIO-INNOVATION<span>Diagnostics Consultancy</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="quote.html" class="active">Request a Quote</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-outline">Contact</a>
+      <a href="quote.html" class="btn btn-primary">Get a Quote</a>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero plate-grid-light">
+  <div class="wrap">
+    <div class="eyebrow">Request a quote</div>
+    <h1 style="color:#fff;">Tell us what your lab needs.</h1>
+    <p>Fill in the details below — this opens a pre-filled email to nikbioinnovation@gmail.com for you to send.</p>
+  </div>
+</section>
+
+<section class="bg-panel">
+  <div class="wrap">
+    <div class="grid grid-2" style="align-items:flex-start; gap:40px;">
+      <form id="quote-form" class="form-card reveal">
+        <div class="form-row">
+          <div>
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="lab">Laboratory / Hospital *</label>
+            <input type="text" id="lab" name="lab" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div>
+            <label for="city">City *</label>
+            <input type="text" id="city" name="city" required>
+          </div>
+          <div>
+            <label for="mobile">Mobile Number *</label>
+            <input type="tel" id="mobile" name="mobile" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div>
+            <label for="service">Service Required</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option>Molecular Diagnostics</option>
+              <option>ELISA & CLIA Solutions</option>
+              <option>Laboratory Consultancy</option>
+              <option>Blood Bank Solutions</option>
+              <option>NABL Accreditation Support</option>
+              <option>Application & Product Training</option>
+              <option>Equipment Installation & Validation</option>
+              <option>Technical Support</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row" style="grid-template-columns:1fr;">
+          <div>
+            <label for="product">Product Required</label>
+            <input type="text" id="product" name="product" placeholder="e.g. HBsAg ELISA kit, CLIA analyzer, PCR reagents">
+          </div>
+        </div>
+        <div class="form-row" style="grid-template-columns:1fr; margin-bottom:8px;">
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Describe your requirement or the problem you're facing"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; margin-top:10px;">Send Request</button>
+      </form>
+
+      <div class="reveal">
+        <div class="card" style="margin-bottom:20px;">
+          <h3>Prefer to talk directly?</h3>
+          <p style="margin-top:8px;">Call or message us on WhatsApp for faster response on urgent lab issues.</p>
+          <div style="display:flex; gap:12px; margin-top:16px; flex-wrap:wrap;">
+            <a href="tel:+919601525643" class="btn btn-outline">Call +91 96015 25643</a>
+            <a href="https://wa.me/919601525643" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>What happens next</h3>
+          <ul style="margin-top:14px; display:flex; flex-direction:column; gap:10px;">
+            <li style="font-size:0.94rem; color:var(--ink-soft);">1. We review your requirement within one business day.</li>
+            <li style="font-size:0.94rem; color:var(--ink-soft);">2. We follow up by phone or email to confirm scope.</li>
+            <li style="font-size:0.94rem; color:var(--ink-soft);">3. You receive a written quote or proposal.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img src="assets/logo-icon.png" alt="NIK BIO-INNOVATION logo"><div class="brand-name" style="color:#fff;">NIK BIO-INNOVATION</div></div>
+        <p style="margin-top:12px; font-size:0.9rem;">Diagnostics consultancy for molecular, ELISA, CLIA, and blood bank laboratories across Gujarat.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="quote.html">Request a Quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Molecular Diagnostics</a></li>
+          <li><a href="services.html">ELISA &amp; CLIA Solutions</a></li>
+          <li><a href="services.html">NABL Accreditation</a></li>
+          <li><a href="services.html">Technical Support</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>+91 96015 25643</li>
+          <li>nikbioinnovation@gmail.com</li>
+          <li>Gota, Ahmedabad – 382481</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 NIK BIO-INNOVATION. All rights reserved.</span>
+      <span>Director: Nilesh Patel</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/919601525643" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">☎</a>
+
+<script src="script.js"></script>
+</body>
+</html>
